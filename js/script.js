@@ -1,5 +1,5 @@
 var numeroSecreto = parseInt(Math.random() * 1001);
-var tentativas = 5;
+var tentativas = 10;
 
 function chutou() {
   var chute = parseInt(document.getElementById("chute").value);
